@@ -1,0 +1,136 @@
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #14100d;
+}
+
+
+.navbar {
+  width: 99%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  padding: 10px 20px;
+  background-color: #f55f08;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.navbar input {
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  width: 250px;
+}
+
+
+.main {
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+
+.create-post {
+  padding: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.create-post textarea {
+  width: 98%;
+  height: 80px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+  resize: none;
+}
+
+.create-post button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #000003;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.create-post button:hover {
+  background-color: #365899;
+}
+
+
+.post {
+  padding: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.post p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.post-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.post-actions button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #f0f2f5;
+}
+
+.post-actions button:hover {
+  background-color: #ddd;
+}
+
+.comments {
+  margin-top: 10px;
+  border-top: 1px solid #e0e0e0;
+  padding-top: 10px;
+}
+
+.comment {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #555;
+}
+.post-actions button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #f0f2f5;
+  transition: background-color 0.2s ease;
+}
+
+.post-actions button:hover {
+  background-color: #ddd;
+}
+
+.post-actions button svg {
+  font-size: 16px;
+}
+
